@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "099f542ea79716205ca3d1cc2c478c34",
+    "content-hash": "ed4e6cc6d23fc84b717f58996c942cf4",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -763,6 +763,41 @@
                 "source": "https://github.com/colinmollenhour/php-redis-session-abstract/tree/v1.4.4"
             },
             "time": "2021-04-07T21:51:17+00:00"
+        },
+        {
+            "name": "community-engineering/language-pt_br",
+            "version": "0.0.45",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-pt_BR.git",
+                "reference": "701c746a705eac66b0041d0bdfd3ea5435e9ecfc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/701c746a705eac66b0041d0bdfd3ea5435e9ecfc",
+                "reference": "701c746a705eac66b0041d0bdfd3ea5435e9ecfc",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "pt_BR language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-pt_BR/issues",
+                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.45"
+            },
+            "time": "2021-04-27T00:04:08+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -20890,6 +20925,50 @@
             "time": "2019-11-06T18:30:11+00:00"
         },
         {
+            "name": "wolfsellers/module-enabledisabletfa",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wolfsellers/module-enabledisabletfa.git",
+                "reference": "57e0f33861f989c5017f40e986d7e72d35c488d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wolfsellers/module-enabledisabletfa/zipball/57e0f33861f989c5017f40e986d7e72d35c488d9",
+                "reference": "57e0f33861f989c5017f40e986d7e72d35c488d9",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-two-factor-auth": "1.*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "WolfSellers\\EnableDisableTfa\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rus0",
+                    "email": "andonid88@gmail.com",
+                    "homepage": "https://wolfsellers.com"
+                }
+            ],
+            "description": "Adds enable disable switch for the Two-factor Authorization",
+            "support": {
+                "issues": "https://github.com/wolfsellers/module-enabledisabletfa/issues",
+                "source": "https://github.com/wolfsellers/module-enabledisabletfa/tree/1.0.3"
+            },
+            "time": "2020-10-13T01:52:01+00:00"
+        },
+        {
             "name": "yotpo/magento2-module-yotpo-reviews",
             "version": "3.1.3",
             "dist": {
@@ -22685,6 +22764,58 @@
                 "source": "https://central.hoa-project.net/Resource/Library/Ustring"
             },
             "time": "2017-01-16T07:08:25+00:00"
+        },
+        {
+            "name": "honl/magento2-templatehints",
+            "version": "0.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ho-nl/magento2-Ho_Templatehints.git",
+                "reference": "c66ab94c4282acd9e3ae93f52da85d64a86c3f73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ho-nl/magento2-Ho_Templatehints/zipball/c66ab94c4282acd9e3ae93f52da85d64a86c3f73",
+                "reference": "c66ab94c4282acd9e3ae93f52da85d64a86c3f73",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.1"
+            },
+            "replace": {
+                "ho-nl/magento2-templatehints": "self.version"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Ho\\Templatehints\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Hachmang - H&O",
+                    "email": "paul@h-o.nl"
+                }
+            ],
+            "description": "H&O Magento 2 Advanced Template Hints module",
+            "homepage": "https://github.com/ho-nl/magento2-Ho_Templatehints",
+            "support": {
+                "issues": "https://github.com/ho-nl/magento2-Ho_Templatehints/issues",
+                "source": "https://github.com/ho-nl/magento2-Ho_Templatehints/tree/master"
+            },
+            "time": "2020-04-17T12:48:43+00:00"
         },
         {
             "name": "jms/metadata",
